@@ -1,0 +1,18 @@
+numpy>=1.26
+soundfile>=0.12
+torch>=2.2
+speechbrain>=0.5.16
+openai-whisper>=20240930
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.9
+rich>=13.8
+streamlit>=1.39
+python-multipart>=0.0.9
+# For MP3 support via audioread/ffmpeg
+librosa>=0.10
+# Optional/alternatives (uncomment as needed)
+# librosa>=0.10
+# deepmultilingualpunctuation>=1.0.1
+# faster-whisper>=1.0
+# pyannote.audio>=3.1
